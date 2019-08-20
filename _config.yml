@@ -1,1 +1,32 @@
-theme: jekyll-theme-cayman
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://jekyller.github.io/vitae
+author: Fábio Madeira
+
+# edit this section with your information
+# jekyller.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: Vaibhav Singhal's Resume
+name: Vaibhav Singhal
+email: vaibhavsinghal87@gmail.com
+email_full: mailto:vaibhavsinghal87@gmail.com
+website:
+website_full:
+github: vaibhavsinghal87
+tel: +91 9654349886
+tel_full: tel:+919654349886
+google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
+address:
+  country: India
+google_analytics: UA-69300817-1
+
+# needed for travis-ci build
+exclude: [vendor]
